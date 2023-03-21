@@ -75,15 +75,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ash"
-version = "0.37.2+1.3.238"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "28bf19c1f0a470be5fbf7522a308a05df06610252c5bcf5143e1b23f629a9a03"
-dependencies = [
- "libloading 0.7.4",
-]
-
-[[package]]
 name = "autocfg"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1717,7 +1708,6 @@ checksum = "f1382d1f0a252c4bf97dc20d979a2fdd05b024acd7c2ed0f7595d7817666a157"
 name = "rustFlappyBird"
 version = "0.1.0"
 dependencies = [
- "ash 0.37.2+1.3.238",
  "nannou",
 ]
 
@@ -2232,7 +2222,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "af28b29ef0b44cd22dd9895d4349b9d5a687df42f58da234871198637eabe328"
 dependencies = [
  "arrayvec 0.7.2",
- "ash 0.33.3+1.2.191",
+ "ash",
  "bit-set",
  "bitflags",
  "block",
