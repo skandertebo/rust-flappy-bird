@@ -1705,7 +1705,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f1382d1f0a252c4bf97dc20d979a2fdd05b024acd7c2ed0f7595d7817666a157"
 
 [[package]]
-name = "rustFlappyBird"
+name = "rust_flappy_bird"
 version = "0.1.0"
 dependencies = [
  "nannou",
